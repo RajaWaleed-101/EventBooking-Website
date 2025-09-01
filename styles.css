@@ -241,7 +241,7 @@ section {
     display: flex;
     width: max-content;
     white-space: nowrap;
-    animation: scrollText 20s linear infinite;
+    animation: scrollText 40s linear infinite;
 }
 
 /* Text style */
