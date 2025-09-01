@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>EventSphere</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+<div class="logo">
+  <a href="#">
+    <img src="images/logo.png" alt="EventSphere Logo">
+    EventSphere
+  </a>
+</div>
+
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#events">Upcoming Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>Discover Upcoming Events</h1>
+            <p>Stay updated with the latest conferences, concerts, and more</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Events...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Gradient Strip -->
+<div class="animated-strip">
+  <div class="strip-content">
+    <span class="typing-text">★ YOUR GATEWAY TO THE GREATEST EVENTS OF 2025 </span>
+    <span class="typing-text">★ YOUR GATEWAY TO THE GREATEST EVENTS OF 2025 </span>
+    <span class="typing-text">★ YOUR GATEWAY TO THE GREATEST EVENTS OF 2025 </span>
+    <span class="typing-text">★ YOUR GATEWAY TO THE GREATEST EVENTS OF 2025 </span>
+  </div>
+</div>
+
+
+
+
+    <!-- Upcoming Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="events-grid">
+                <!-- Event 1 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/Tech Fest.jpeg" alt="TechFest 2025">
+                    </div>
+                    <div class="event-info">
+                        <h3>TechFest 2025</h3>
+                        <div class="event-meta">
+                            <p><i class="far fa-calendar-alt"></i> 15th Sept 2025</p>
+                            <p><i class="fas fa-map-marker-alt"></i> San Francisco Convention Center</p>
+                        </div>
+                        <p class="event-description">Annual technology festival featuring startups, AI talks, and networking.</p>
+                        <button class="learn-more" data-event="event1">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Event 2 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/Music Event.jpeg" alt="Music Vibes Night">
+                    </div>
+                    <div class="event-info">
+                        <h3>Music Vibes Night</h3>
+                        <div class="event-meta">
+                            <p><i class="far fa-calendar-alt"></i> 25th Sept 2025</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Madison Square Garden, New York</p>
+                        </div>
+                        <p class="event-description">A live concert night with global artists and DJs.</p>
+                        <button class="learn-more" data-event="event2">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Event 3 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/Art event.jpeg" alt="Art & Culture Expo">
+                    </div>
+                    <div class="event-info">
+                        <h3>Art & Culture Expo</h3>
+                        <div class="event-meta">
+                            <p><i class="far fa-calendar-alt"></i> 10th Oct 2025</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Louvre Museum, Paris</p>
+                        </div>
+                        <p class="event-description">Celebrating modern and classical art with exhibitions and workshops.</p>
+                        <button class="learn-more" data-event="event3">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Event 4 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/Startup.jpeg" alt="Startup Pitch Day">
+                    </div>
+                    <div class="event-info">
+                        <h3>Startup Pitch Day</h3>
+                        <div class="event-meta">
+                            <p><i class="far fa-calendar-alt"></i> 18th Oct 2025</p>
+                            <p><i class="fas fa-map-marker-alt"></i> London Tech Hub</p>
+                        </div>
+                        <p class="event-description">Showcasing the next generation of innovative startups.</p>
+                        <button class="learn-more" data-event="event4">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Event 5 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/Global Health Summit.jpeg" alt="Global Health Summit">
+                    </div>
+                    <div class="event-info">
+                        <h3>Global Health Summit</h3>
+                        <div class="event-meta">
+                            <p><i class="far fa-calendar-alt"></i> 1st Nov 2025</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Geneva Convention Center</p>
+                        </div>
+                        <p class="event-description">Discussions on healthcare, AI in medicine, and global health challenges.</p>
+                        <button class="learn-more" data-event="event5">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Event 6 -->
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="images/emmy.jpeg" alt="Film Gala Awards">
+                    </div>
+                    <div class="event-info">
+                        <h3>Film Gala Awards</h3>
+                        <div class="event-meta">
+                            <p><i class="far fa-calendar-alt"></i> 12th Nov 2025</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Dolby Theatre, Los Angeles</p>
+                        </div>
+                        <p class="event-description">A night of glamour celebrating the best in international cinema.</p>
+                        <button class="learn-more" data-event="event6">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Detail Section -->
+    <section id="event-detail" class="event-detail">
+        <div class="container">
+            <div class="close-detail">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="detail-content">
+                <!-- Content will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-wrapper">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">Copyright © 2025 EventSphere</p>
+        </div>
+    </footer>
+
+    <!-- Payment Modal -->
+    <div id="payment-modal" class="payment-modal">
+        <div class="payment-container">
+            <div class="close-payment">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="payment-content">
+                <h2>Complete Your Registration</h2>
+                <div class="selected-event-info">
+                    <!-- Event info will be dynamically loaded here -->
+                </div>
+                <div class="payment-form-container">
+                    <form id="payment-form">
+                        <div class="form-section">
+                            <h3>Personal Information</h3>
+                            <div class="form-group">
+                                <label for="full-name">Full Name</label>
+                                <input type="text" id="full-name" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email-address">Email Address</label>
+                                <input type="email" id="email-address" placeholder="Enter your email address" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" id="phone-number" placeholder="Enter your phone number" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h3>Payment Method</h3>
+                            <div class="payment-methods">
+                                <div class="payment-method">
+                                    <input type="radio" id="credit-card" name="payment-method" value="credit-card" checked>
+                                    <label for="credit-card">
+                                        <i class="far fa-credit-card"></i> Credit Card
+                                    </label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" id="paypal" name="payment-method" value="paypal">
+                                    <label for="paypal">
+                                        <i class="fab fa-paypal"></i> PayPal
+                                    </label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" id="bank-transfer" name="payment-method" value="bank-transfer">
+                                    <label for="bank-transfer">
+                                        <i class="fas fa-university"></i> Bank Transfer
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <!-- Credit Card Details (default) -->
+                            <div id="credit-card-details" class="payment-details">
+                                <div class="form-group">
+                                    <label for="card-number">Card Number</label>
+                                    <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group half">
+                                        <label for="expiry-date">Expiry Date</label>
+                                        <input type="text" id="expiry-date" placeholder="MM/YY" required>
+                                    </div>
+                                    <div class="form-group half">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" id="cvv" placeholder="123" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="card-name">Name on Card</label>
+                                    <input type="text" id="card-name" placeholder="Enter name on card" required>
+                                </div>
+                            </div>
+                            
+                            <!-- PayPal Details (hidden by default) -->
+                            <div id="paypal-details" class="payment-details" style="display: none;">
+                                <p>You will be redirected to PayPal to complete your payment after clicking "Complete Payment".</p>
+                            </div>
+                            
+                            <!-- Bank Transfer Details (hidden by default) -->
+                            <div id="bank-transfer-details" class="payment-details" style="display: none;">
+                                <div class="bank-info">
+                                    <p><strong>Bank Name:</strong> EventSphere Bank</p>
+                                    <p><strong>Account Number:</strong> 1234567890</p>
+                                    <p><strong>Routing Number:</strong> 987654321</p>
+                                    <p><strong>Reference:</strong> <span id="bank-reference">EVENT-REF</span></p>
+                                </div>
+                                <p class="note">Please include the reference number in your transfer description.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h3>Order Summary</h3>
+                            <div class="order-summary">
+                                <div class="summary-item">
+                                    <span>Event Ticket</span>
+                                    <span id="ticket-price">$99.00</span>
+                                </div>
+                                <div class="summary-item">
+                                    <span>Processing Fee</span>
+                                    <span>$5.00</span>
+                                </div>
+                                <div class="summary-item total">
+                                    <span>Total</span>
+                                    <span id="total-price">$104.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="payment-btn">Complete Payment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Event Detail Templates -->
+    <div class="event-templates" style="display: none;">
+        <!-- Event 1 Detail -->
+        <div id="event1-detail">
+            <div class="detail-banner">
+                <img src="images/Tech Fest.jpeg" alt="TechFest 2025">
+                <div class="image-caption">Experience the future of technology at TechFest 2025</div>
+            </div>
+            <h2>TechFest 2025</h2>
+            <div class="detail-meta">
+                <p><i class="far fa-calendar-alt"></i> 15th Sept 2025</p>
+                <p><i class="fas fa-map-marker-alt"></i> San Francisco Convention Center</p>
+            </div>
+            <div class="detail-description">
+                <p>Annual technology festival featuring startups, AI talks, and networking. Join us for three days of innovation, inspiration, and collaboration at the heart of Silicon Valley.</p>
+                <p>TechFest brings together the brightest minds in technology, from established industry leaders to emerging startups. Explore cutting-edge technologies, attend workshops led by experts, and connect with potential investors and partners.</p>
+                <p>This year's focus will be on artificial intelligence, blockchain technology, and sustainable tech solutions for global challenges.</p>
+            </div>
+            <div class="venue-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.1079179584316!2d-122.41941548468168!3d37.78392997975504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c5afe7f79%3A0xdbf78a9033340697!2sMoscone%20Center!5e0!3m2!1sen!2sus!4v1620160697139!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <button class="register-btn" data-event="event1">Register Now</button>
+        </div>
+
+        <!-- Event 2 Detail -->
+        <div id="event2-detail">
+            <div class="detail-banner">
+                <img src="images/Music Event.jpeg" alt="Music Vibes Night">
+                <div class="image-caption">Feel the rhythm at Music Vibes Night</div>
+            </div>
+            <h2>Music Vibes Night</h2>
+            <div class="detail-meta">
+                <p><i class="far fa-calendar-alt"></i> 25th Sept 2025</p>
+                <p><i class="fas fa-map-marker-alt"></i> Madison Square Garden, New York</p>
+            </div>
+            <div class="detail-description">
+                <p>A live concert night with global artists and DJs. Experience an unforgettable night of music, lights, and energy at one of the world's most iconic venues.</p>
+                <p>Music Vibes Night brings together chart-topping artists and underground sensations for a night of diverse musical experiences. From electronic dance music to soul-stirring acoustic performances, there's something for every music lover.</p>
+                <p>The event will feature state-of-the-art sound systems, spectacular light shows, and immersive visual effects that will transform Madison Square Garden into a musical paradise.</p>
+            </div>
+            <div class="venue-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3539287183792!2d-73.99566468459318!3d40.75018797932764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a21fb011c85%3A0x33df10e49762f8e4!2sMadison%20Square%20Garden!5e0!3m2!1sen!2sus!4v1620160777139!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <button class="register-btn" data-event="event2">Get Tickets</button>
+        </div>
+
+        <!-- Event 3 Detail -->
+        <div id="event3-detail">
+            <div class="detail-banner">
+                <img src="images/Art event.jpeg" alt="Art & Culture Expo">
+                <div class="image-caption">Immerse yourself in creativity at the Art & Culture Expo</div>
+            </div>
+            <h2>Art & Culture Expo</h2>
+            <div class="detail-meta">
+                <p><i class="far fa-calendar-alt"></i> 10th Oct 2025</p>
+                <p><i class="fas fa-map-marker-alt"></i> Louvre Museum, Paris</p>
+            </div>
+            <div class="detail-description">
+                <p>Celebrating modern and classical art with exhibitions and workshops. Immerse yourself in the world of art at one of the most prestigious museums in the world.</p>
+                <p>The Art & Culture Expo brings together artists, curators, collectors, and art enthusiasts from around the globe. Explore diverse artistic expressions spanning centuries and continents, from Renaissance masterpieces to contemporary digital art.</p>
+                <p>Participate in hands-on workshops led by renowned artists, attend panel discussions on the future of art in the digital age, and witness live art performances that blur the boundaries between different artistic disciplines.</p>
+            </div>
+            <div class="venue-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8739486969846!2d2.3354253156744856!3d48.86061507928823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sLouvre%20Museum!5e0!3m2!1sen!2sus!4v1620160877139!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <button class="register-btn" data-event="event3">Reserve Spot</button>
+        </div>
+
+        <!-- Event 4 Detail -->
+        <div id="event4-detail">
+            <div class="detail-banner">
+                <img src="images/Startup.jpeg" alt="Startup Pitch Day">
+                <div class="image-caption">Discover the next big ideas at Startup Pitch Day</div>
+            </div>
+            <h2>Startup Pitch Day</h2>
+            <div class="detail-meta">
+                <p><i class="far fa-calendar-alt"></i> 18th Oct 2025</p>
+                <p><i class="fas fa-map-marker-alt"></i> London Tech Hub</p>
+            </div>
+            <div class="detail-description">
+                <p>Showcasing the next generation of innovative startups. Witness groundbreaking ideas and connect with the entrepreneurs shaping our future.</p>
+                <p>Startup Pitch Day brings together promising startups, venture capitalists, angel investors, and industry experts for a day of pitches, networking, and collaboration. Selected startups will have the opportunity to present their business models, products, and visions to a panel of judges and potential investors.</p>
+                <p>The event will feature startups from various sectors, including fintech, healthtech, edtech, sustainability, and more. Attendees will have the chance to vote for their favorite startup and participate in Q&A sessions with the founders.</p>
+            </div>
+            <div class="venue-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9050207912896!2d-0.08983968424958863!3d51.52376667963643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca671a6cfb7%3A0x9b451d586c649129!2sShoreditch%2C%20London%2C%20UK!5e0!3m2!1sen!2sus!4v1620160977139!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <button class="register-btn" data-event="event4">Apply to Pitch</button>
+        </div>
+
+        <!-- Event 5 Detail -->
+        <div id="event5-detail">
+            <div class="detail-banner">
+                <img src="images/Global Health Summit.jpeg" alt="Global Health Summit">
+                <div class="image-caption">Shaping the future of healthcare at the Global Health Summit</div>
+            </div>
+            <h2>Global Health Summit</h2>
+            <div class="detail-meta">
+                <p><i class="far fa-calendar-alt"></i> 1st Nov 2025</p>
+                <p><i class="fas fa-map-marker-alt"></i> Geneva Convention Center</p>
+            </div>
+            <div class="detail-description">
+                <p>Discussions on healthcare, AI in medicine, and global health challenges. Join leading experts in addressing the most pressing health issues of our time.</p>
+                <p>The Global Health Summit brings together healthcare professionals, researchers, policymakers, and technology innovators to discuss the future of healthcare and explore solutions to global health challenges. The summit will feature keynote speeches, panel discussions, workshops, and networking opportunities.</p>
+                <p>Key topics will include the role of artificial intelligence in healthcare, pandemic preparedness and response, addressing healthcare disparities, sustainable healthcare systems, and innovations in medical technology.</p>
+            </div>
+            <div class="venue-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.8802012085266!2d6.141054415405808!3d46.17762977911614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b1a19022431%3A0x29e5e21e335a7ff2!2sGeneva%20Palexpo!5e0!3m2!1sen!2sus!4v1620161077139!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <button class="register-btn" data-event="event5">Register Now</button>
+        </div>
+
+        <!-- Event 6 Detail -->
+        <div id="event6-detail">
+            <div class="detail-banner">
+                <img src="images/emmy.jpeg" alt="Film Gala Awards">
+                <div class="image-caption">Celebrating cinematic excellence at the Film Gala Awards</div>
+            </div>
+            <h2>Film Gala Awards</h2>
+            <div class="detail-meta">
+                <p><i class="far fa-calendar-alt"></i> 12th Nov 2025</p>
+                <p><i class="fas fa-map-marker-alt"></i> Dolby Theatre, Los Angeles</p>
+            </div>
+            <div class="detail-description">
+                <p>A night of glamour celebrating the best in international cinema. Join filmmakers, actors, and industry professionals for a prestigious award ceremony honoring excellence in filmmaking.</p>
+                <p>The Film Gala Awards recognizes outstanding achievements in various categories, including directing, acting, screenwriting, cinematography, and more. The ceremony will feature red carpet arrivals, live performances, memorable acceptance speeches, and exclusive after-parties.</p>
+                <p>This year's edition will spotlight independent filmmakers and emerging talents from diverse backgrounds, alongside established industry figures. The event will be broadcast live to audiences worldwide.</p>
+            </div>
+            <div class="venue-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.4557248499353!2d-118.34146768479138!3d34.10281802259394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf23c9aabffb%3A0x2f2c4e880da97d3f!2sDolby%20Theatre!5e0!3m2!1sen!2sus!4v1620161177139!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <button class="register-btn" data-event="event6">Get Tickets</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
